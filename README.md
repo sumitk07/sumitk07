@@ -13,7 +13,7 @@
 I build small, honest research prototypes in **information retrieval** and **privacy-preserving machine learning**, and I have shipped production mobile and web apps since 2023.
 
 🔹 **Now:** measuring how much search gets worse when people ask in English or Hindi about information that exists only in Japanese<br>
-🔹 **Also:** personalised federated learning for home sensor data, where raw data never leaves the home<br>
+🔹 **Also:** personalised federated learning for home sensor data, where raw data never leaves the home, and sentiment of memes in low-resource languages<br>
 🔹 **Before:** Flutter and React developer, 4 apps live on Google Play
 
 ---
@@ -44,6 +44,20 @@ On 100 MIRACL-ja questions, multilingual-E5 drops from **0.818** nDCG@10 (Japane
 On 10 simulated smart homes, FedPer matches central training (AUROC **0.844** vs 0.839) without sharing raw data. FedAvg fails on a late sleeper (**0.50**); FedPer fixes it (**0.84**).
 
 <sub>`FedAvg` `FedPer` `autoencoder` `differential privacy` `explainability`</sub>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**[meme-sentiment-bn](https://github.com/sumitk07/meme-sentiment-bn)**<br>
+<sub>Where does the feeling of a meme come from: the words, the picture, or both? (Bengali, MemoSen)</sub>
+
+<a href="https://github.com/sumitk07/meme-sentiment-bn"><img src="https://raw.githubusercontent.com/sumitk07/meme-sentiment-bn/main/results/figures/macro_f1_by_system.png" width="80%"></a>
+
+On 871 Bengali test memes, the image alone (CLIP, **0.539** macro-F1) is as good as the best text model (**0.541**). A multilingual sentence model reaches only **0.408**, joining text and image does not help yet, and neutral memes stay below **0.27** F1 for every model.
+
+<sub>`CLIP` `multilingual-E5` `TF-IDF` `fusion` `macro-F1` `low-resource languages`</sub>
 
 </td>
 </tr>

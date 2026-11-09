@@ -10,7 +10,7 @@
 
 ### Hi, I'm Sumit 👋
 
-I build small, honest research prototypes in **information retrieval** and **privacy-preserving machine learning**, and I have shipped production mobile and web apps since 2023.
+I build honest research prototypes in **information retrieval** and **privacy-preserving machine learning**, and I have shipped production mobile and web apps since 2023.
 
 🔹 **Now:** measuring how much search gets worse when people ask in English or Hindi about information that exists only in Japanese<br>
 🔹 **Also:** personalised federated learning for home sensor data, where raw data never leaves the home, and sentiment of memes in low-resource languages<br>
